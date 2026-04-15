@@ -171,7 +171,10 @@ footer {
     padding: 20px;}
 
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    nav {        flex-direction: column;        align-items: center;    }    nav a {        width: 100%;        text-align: center;        border-bottom: 1px solid #555;    }    /* HEADER */    header h1 {        font-size: 20px;    }    header h2 {        font-size: 16px;    }    /* HOME PAGE */    .welcome {        width: 90%;        padding: 15px;    }    .start {        width: 100%;    }    /* TABLE (COURSES) */    fieldset {        width: 95%;        padding: 10px;    }    table {        font-size: 12px;        display: block;        overflow-x: auto;  /* مهم جدًا */    }    /* FORM (ADD COURSE) */    .course-form {        width: 95%;    }    input,    select,    textarea {        font-size: 14px;    }    .radio-group {        flex-direction: column;    }    /* BUTTONS */    button {        width: 100%;    }    /* CONTACT */    .contact-box {        width: 95%;    }    .contact-box h3 {        font-size: 16px;    }    .contact-box p {        font-size: 14px;    }    /* FOOTER */    footer {        font-size: 12px;    }}
+
+}
     
 
 
